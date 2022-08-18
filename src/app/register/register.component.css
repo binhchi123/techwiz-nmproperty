@@ -1,0 +1,18 @@
+main {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.sub {
+    font-weight: 700 !important;
+    color: #545454 !important;
+    background: #ffff !important;
+    border: 1px solid #545454;
+}
+
+.sub:hover {
+    border: 1px solid #545454 !important;
+    background: #545454 !important;
+    color: #ffff !important;
+}

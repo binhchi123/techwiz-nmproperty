@@ -1,0 +1,20 @@
+[
+    {
+        "id": 9,
+        "name": "Floral-print flowy blouse",
+        "price": "368.99",
+        "image": "../../assets/image/product-9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Floral-print flowy blouse",
+        "price": "368.99",
+        "image": "../../assets/image/product-10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Floral-print flowy blouse",
+        "price": "368.99",
+        "image": "../../assets/image/product-11.jpg"
+    }
+]

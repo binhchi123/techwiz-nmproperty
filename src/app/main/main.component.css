@@ -1,0 +1,653 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Poppins:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+.banner-img {
+    padding: 70px 0;
+    float: right;
+    /* position: relative; */
+}
+
+.banner .carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.benefit {
+    padding: 30px 0;
+}
+
+.benefit .ro {
+    display: flex;
+}
+
+.benefit img {
+    margin-right: 22px;
+}
+
+.benefit .benefit-text {
+    align-items: center;
+    font-weight: 500;
+    display: -webkit-flex;
+    margin: 0 -3% 0 15%;
+}
+
+.benefit .benefit-text a {
+    color: black;
+    text-decoration: none;
+    width: 143px;
+}
+
+.benefit .benefit-text a:hover {
+    color: #ee7b7b;
+
+}
+
+.st {
+    display: flex;
+    justify-content: space-between;
+}
+
+::ng-deep label.star {
+    padding: 0 5px !important;
+    font-size: 20px !important;
+}
+
+.card-body {
+    padding: 15px 0px;
+}
+
+.banner2 {
+    position: relative;
+}
+
+.banner-img img {
+    width: 360px;
+
+}
+
+.banner2 .left ::before {
+    content: 'Women';
+}
+
+.banner2 .right ::before {
+    content: 'Men';
+}
+
+.banner-img ::before {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -37%);
+    text-align: center;
+    line-height: 128px;
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.banner-content {
+    padding: 35% 0;
+}
+
+.banner-content .date {
+    /* font-family: 'Jura', sans-serif; */
+    font-family: 'Inspiration', cursive;
+    font-size: 60px;
+    line-height: 62px;
+    color: #ee7b7b;
+    letter-spacing: -3px;
+}
+
+.banner-content .title {
+    margin-bottom: 20px;
+}
+
+.banner-content .content {
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.banner-content .btn-discover {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-content .btn-discover:hover {
+    color: #ee7b7b;
+}
+
+.banner-content .btn-discover::after {
+    text-decoration: none;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ee7b7b;
+    bottom: -25%;
+    left: 0;
+}
+
+.banner2 .bg-color-banner {
+    position: absolute;
+    width: 375px;
+    height: 100%;
+    top: 0;
+    left: 56%;
+    background-color: #f5f4f7;
+    z-index: -1;
+}
+
+.main1 .text-main1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1 .text-main1 a {
+    text-decoration: none;
+    color: #b7b7b7;
+    font-size: 20px;
+    position: relative;
+}
+
+.main1 .text-main1 a:hover {
+    color: #ee7b7b;
+}
+
+.main1 .text-main1 a::after {
+    text-decoration: none;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #b7b7b7;
+    bottom: 5%;
+    left: 0;
+}
+
+.main1 .card {
+    border: none;
+}
+
+.main1 .card:hover .card-icon {
+    display: block;
+}
+
+.main1 .card img {
+    height: 100%;
+    border-radius: none;
+    border-radius: 0px;
+    position: relative;
+}
+
+.main1 .card:hover {
+    opacity: 0.8;
+}
+
+.main2 .card:hover .card-icon {
+    display: block;
+}
+
+.main2 .card img {
+    height: 100%;
+    border-radius: none;
+    border-radius: 0px;
+    position: relative;
+}
+
+
+.main2 .card-icon {
+    position: absolute;
+    background: white;
+    padding: 1px 8px;
+    right: -1;
+    top: 69%;
+    display: none;
+}
+
+.card-icon i {
+    font-size: 21px;
+    padding: 9px;
+}
+
+.card-icon i:hover {
+    color: #ee7b7b;
+}
+
+.main1 .card-icon {
+    position: absolute;
+    background: white;
+    padding: 1px 8px;
+    right: -1px;
+    top: 61%;
+    display: none;
+}
+
+.banner3 {
+    position: relative;
+}
+
+.banner3 .left a {
+    display: block;
+    font-size: 30px;
+    line-height: 82px;
+    /* text-decoration: none; */
+    color: #fff;
+}
+
+.banner3 .right a {
+    display: block;
+    font-size: 30px;
+    line-height: 82px;
+    /* text-decoration: none; */
+    color: #fff;
+}
+
+.banner3 .left a:hover {
+    color: #ee7b7b;
+}
+
+.banner3 .right a:hover {
+    color: #ee7b7b;
+}
+
+.banner3-img a:hover {
+    color: #ee7b7b;
+}
+
+.banner3 {
+    position: relative;
+}
+
+.banner3 .bg-color-banner {
+    position: absolute;
+    left: 0;
+    top: 2.65%;
+    width: 100%;
+    height: 475px;
+    background-color: #cfc2c2;
+    z-index: -1;
+}
+
+.banner3 .left {
+    margin-left: 100px;
+    margin-top: 30%;
+}
+
+.banner3 .right {
+    margin-left: 20px;
+    margin-top: 11.3%;
+}
+
+.banner3 .left a {
+    font-weight: 500;
+}
+
+.banner3 .right a {
+    font-weight: 500;
+}
+
+.banner3 .mid {
+    position: relative;
+}
+
+.banner3 .mid img {
+    margin-left: 15px;
+}
+
+.banner3 .mid-text {
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    right: 20%;
+}
+
+.banner3 .mid-text .tittle {
+    /* font-family: 'Jura', sans-serif; */
+    font-family: 'Inspiration', cursive;
+    font-size: 48px;
+    line-height: 42px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.banner3 .mid-text .content {
+    font-size: 48px;
+    color: #fff;
+}
+
+.banner3 .mid-text .btn-discover {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.banner3 .mid-text .btn-discover:hover {
+    color: #ee7b7b;
+}
+
+.banner3 .mid-text .btn-discover::after {
+    text-decoration: none;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ee7b7b;
+    bottom: -25%;
+    left: 0;
+}
+
+.main2 .card {
+    border: none;
+}
+
+.main2 .card img {
+    border-radius: none;
+    border-radius: 0px
+}
+
+.main3 .main-img1 {
+    text-align: center;
+    padding: 5px;
+}
+
+.main3 .main-img1 img {
+    width: 215px;
+}
+
+.main3 .main-img2 {
+    text-align: center;
+}
+
+.main3 .main-img2 img {
+    width: 150px;
+    padding: 20% 0%;
+}
+
+@media screen and (max-width:769px) {
+    .banner2 .banner-img img {
+        width: 244px;
+    }
+
+    .benefit .benefit-text {
+        align-items: center;
+        font-weight: 500;
+        display: block;
+        margin: 0 -3% 0 13%;
+    }
+
+    .banner-img ::before {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -37%);
+        text-align: center;
+        line-height: 128px;
+    }
+
+    .banner2 .bg-color-banner {
+        position: absolute;
+        width: 335px;
+        height: 100%;
+        top: 0;
+        left: 56%;
+    }
+
+    .banner3 .right img {
+        width: 200px;
+        margin-top: 10.5%;
+    }
+
+    .banner3 .left img {
+        width: 200px;
+    }
+
+    .banner3 .left {
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .banner3 .mid-text {
+        right: 5%
+    }
+
+    .banner3 .mid img {
+        width: 250px;
+        margin-left: -3%;
+    }
+
+    .banner3 .right a {
+        font-size: 22px;
+    }
+
+    .banner3 .left a {
+        font-size: 22px;
+    }
+
+    .banner3 .bg-color-banner {
+        height: 335px;
+    }
+
+    .main3 .main-img1 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .main3 .main-img2 img {
+        padding: 20px 0;
+    }
+
+}
+
+@media screen and (max-width:426px) {
+    .body {
+        margin-top: 100px;
+    }
+
+    .banner2 .bg-color-banner {
+        position: absolute;
+        width: 390px;
+        height: 100%;
+        top: 0;
+        left: 4%;
+        background-color: #f5f4f7;
+        z-index: -1;
+    }
+
+    .banner2 .banner-content {
+        padding: 20px;
+    }
+
+    .banner2 .banner-img img {
+        width: 465px;
+        padding: 28px;
+        margin-right: -32px;
+    }
+
+    .banner-img {
+        padding: 0px 0;
+    }
+
+    .main1 .text-main1 {
+        display: block;
+    }
+
+    .banner3 .banner3-img {
+        margin: 0;
+        width: 350px;
+        padding: 15px;
+    }
+
+    .banner3 .left img {
+        margin-left: -5%;
+        width: 400px;
+    }
+
+
+    .banner3 .mid img {
+        margin-left: -5%;
+        width: 400px;
+    }
+
+    .banner3 .mid-text {
+        margin-right: 6%;
+    }
+
+    .banner3 .right img {
+        margin-left: -5%;
+        width: 400px;
+    }
+
+    .benefit .ro {
+        display: block;
+    }
+
+    .benefit .benefit-text {
+        padding: 10px 0px;
+    }
+
+    .benefit .benefit-text a {
+        color: black;
+        text-decoration: none;
+        width: 203px;
+    }
+
+    .benefit .benefit-text {
+        margin: 0 -3% 0 9%;
+    }
+
+    .banner3 .bg-color-banner {
+        position: absolute;
+        left: 0px;
+        top: 0%;
+        width: 100%;
+        height: 1650px;
+        /* height: 65%; */
+        background-color: #cfc2c2;
+        z-index: -1;
+    }
+
+    .main3 .main-img1 img {
+        width: 400px;
+        padding: 5px 0px;
+    }
+
+    .main3 .main-img1 {
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:321px) {
+
+    .banner2 .bg-color-banner {
+        position: absolute;
+        width: 290px;
+        height: 100%;
+        top: 0;
+        left: 4%;
+        background-color: #f5f4f7;
+        z-index: -1;
+    }
+
+    .banner2 .banner-content {
+        padding: 20px;
+    }
+
+    .banner2 .banner-img img {
+        padding: 28px;
+        margin-right: -32px;
+    }
+
+    .banner-img {
+        padding: 0px 0;
+    }
+
+    .main1 .text-main1 {
+        display: block;
+    }
+
+    .banner3 .banner3-img {
+        margin: 0;
+        width: 350px;
+        padding: 15px;
+    }
+
+    .banner3 .left img {
+        width: 300px;
+    }
+
+    .banner3 .mid img {
+        margin-left: -5%;
+        width: 300px;
+    }
+
+    .banner3 .mid-text {
+        margin-right: 22%;
+    }
+
+    .banner3 .right img {
+        margin-left: -5%;
+        width: 300px;
+    }
+
+    .benefit .ro {
+        display: block;
+    }
+
+    .benefit .benefit-text {
+        padding: 10px 0px;
+    }
+
+    .benefit .benefit-text a {
+        color: black;
+        text-decoration: none;
+        width: 203px;
+    }
+
+    .benefit .benefit-text {
+        margin: 0 -3% 0 9%;
+    }
+
+    .banner3 .bg-color-banner {
+        position: absolute;
+        left: 0px;
+        top: 0%;
+        width: 100%;
+        height: 1300px;
+        /* height: 65%; */
+        background-color: #cfc2c2;
+        z-index: -1;
+    }
+
+    .main3 .main-img1 img {
+        width: 300px;
+        padding: 5px 0px;
+    }
+
+    .main3 .main-img1 {
+        text-align: center;
+        padding: 0px;
+    }
+}

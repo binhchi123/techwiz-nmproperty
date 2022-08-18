@@ -1,0 +1,150 @@
+.text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+}
+
+.option select {
+    border: none;
+    font-weight: bold;
+}
+
+.soft {
+    color: gray;
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    margin-top: 35px;
+}
+
+.icon {
+    background-color: white;
+    position: absolute;
+    bottom: 80px;
+    right: 15px;
+    opacity: 1;
+    height: 30px;
+}
+
+.icon-box-img:hover .icon {
+    opacity: 1;
+}
+
+.icon ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.icon ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.fa-magnifying-glass:hover {
+    color: #ee7b7b;
+}
+
+.fa-heart:hover {
+    color: #ee7b7b;
+}
+
+.fa-cart-shopping:hover {
+    color: #ee7b7b;
+}
+
+.st {
+    display: flex;
+    justify-content: space-between;
+}
+
+::ng-deep label.star {
+    padding: 0 5px !important;
+    font-size: 20px !important;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.more {
+    margin: 0 auto;
+    display: block;
+}
+
+.more a {
+    text-transform: uppercase;
+    color: black;
+}
+
+.more:hover a {
+    color: #ee7b7b;
+}
+
+.page {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.page ul li a {
+    border: 1px solid gray;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.page .one {
+    background: black;
+    color: white !important;
+}
+
+.page .two:hover {
+    background: black;
+    color: white !important;
+}
+
+.page .three:hover {
+    background: black;
+    color: white !important;
+}
+
+.page .next:hover {
+    background: black;
+    color: white !important;
+}
+
+.card-icon i {
+    font-size: 21px;
+    padding: 9px;
+}
+
+.card-icon i:hover {
+    color: #ee7b7b;
+}
+
+.product .card-icon {
+    position: absolute;
+    background: white;
+    padding: 1px 8px;
+    right: 11px;
+    top: 73%;
+    display: none;
+}
+
+.product .icon-box:hover .card-icon {
+    display: block;
+}

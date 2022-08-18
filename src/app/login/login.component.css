@@ -1,0 +1,58 @@
+main {
+    margin-top: 100px;
+    color: #111;
+}
+
+.Customer {
+    font-size: 30px;
+    font-weight: 700;
+    /* color: #384750; */
+    color: #ffffff;
+}
+
+._new {
+    font-weight: 650;
+}
+
+.boder_ {
+    border-bottom: 1px solid #a9a89f !important;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+}
+
+.Sigin {
+    width: 30% !important;
+    border: 1px solid #545454 !important;
+    font-weight: 700 !important;
+    color: #545454 !important;
+    background: #ffff !important;
+}
+
+.Sigin:hover {
+    border: 1px solid #545454 !important;
+    background: #545454 !important;
+    color: #ffffff !important;
+}
+
+.free {
+    width: 50% !important;
+}
+
+.sub {
+    font-weight: 700 !important;
+    color: #545454 !important;
+    background: #ffff !important;
+    border: 1px solid #545454;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.sub:hover {
+    border: 1px solid #545454 !important;
+    background: #545454 !important;
+    color: #ffff !important;
+}

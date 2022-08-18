@@ -1,0 +1,74 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-4.jpg"
+        }
+    ],
+    "product2": [
+        {
+            "id": 5,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-8.jpg"
+        }
+    ],
+    "product3": [
+        {
+            "id": 9,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-9.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-10.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Floral-print flowy blouse",
+            "price": "368.99",
+            "image": "../../assets/image/product-11.jpg"
+        }
+    ]
+}

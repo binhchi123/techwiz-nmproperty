@@ -1,0 +1,193 @@
+.text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+}
+
+/* .anh-nho img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+} */
+
+.pro {
+    margin-top: 130px;
+}
+
+.pro h2 {
+    color: black;
+    font-size: 25px;
+}
+
+.gia {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.size p {
+    margin-right: 70px;
+}
+
+button {
+    width: 300px;
+}
+
+.cart {
+    height: 32px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.cart:hover {
+    background: #ee7b7b;
+}
+
+.find {
+    height: 32px;
+    border: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.find:hover {
+    background: #ee7b7b;
+    color: white;
+}
+
+.heart:hover a {
+    color: #ee7b7b;
+}
+
+.heart a {
+    color: black;
+    text-decoration: none;
+    margin-left: 76px;
+}
+
+.inf-pre .active {
+    color: black;
+}
+
+.inf-pre ul li {
+    display: inline-block;
+    margin: 0px 10px;
+    position: relative;
+}
+
+.inf-pre ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.active::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: #ee7b7b;
+    top: 38px;
+    left: 0px;
+}
+
+.inf-pre ul li:hover a::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: #ee7b7b;
+    top: 38px;
+    left: 0px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.icon-box-img {
+    position: relative;
+}
+
+.icon-box-img img {
+    width: 270px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.icon {
+    background-color: white;
+    position: absolute;
+    bottom: 80px;
+    right: 0px;
+    opacity: 1;
+    height: 30px;
+}
+
+.icon-box-img:hover .icon {
+    opacity: 1;
+}
+
+.icon ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.icon ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* .search {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+} */
+
+.fa-magnifying-glass:hover {
+    color: #ee7b7b;
+}
+
+.fa-heart:hover {
+    color: #ee7b7b;
+}
+
+.fa-cart-shopping:hover {
+    color: #ee7b7b;
+}
+
+.st {
+    display: flex;
+    justify-content: space-between;
+}
+
+::ng-deep label.star {
+    padding: 0 5px !important;
+    font-size: 20px !important;
+}
+
+@media screen and (max-width:768px) {
+    .icon {
+        margin-right: 75px;
+    }
+
+    .price {
+        margin-right: 60px;
+    }
+
+    .active::after {
+        content: "";
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        background: #ee7b7b;
+        top: 61px;
+        left: 0px;
+    }
+}

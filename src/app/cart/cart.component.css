@@ -1,0 +1,56 @@
+.main {
+    margin-top: 135px;
+    /* font-family: 'Jura', sans-serif; */
+    /* font-size: 1rem; */
+    letter-spacing: .05em;
+    font-size: 1.1em;
+}
+
+table {
+    border: 2px solid white;
+}
+
+.container2 {
+    max-width: 1250px;
+}
+
+td {
+    padding: 12px 0px;
+}
+
+tbody td {
+    vertical-align: middle;
+}
+
+tbody input {
+    padding: 7px;
+    border: 1px solid #e8e8e8;
+    width: 40px;
+    text-align: center;
+}
+
+.btn-fake {
+    padding: 7px 10px;
+    border: none;
+    width: 30px;
+    border: 1px solid #e8e8e8;
+}
+
+.thanhToan label {
+    font-weight: 500;
+}
+
+.sub {
+    font-weight: 700 !important;
+    color: #545454 !important;
+    background: #ffff !important;
+    border: 1px solid #545454;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.sub:hover {
+    border: 1px solid #545454 !important;
+    background: #545454 !important;
+    color: #ffff !important;
+}
